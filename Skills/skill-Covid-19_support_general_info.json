@@ -1,0 +1,4146 @@
+{
+  "intents": [
+    {
+      "intent": "10.1contacts",
+      "examples": [
+        {
+          "text": "Where can I call for more information?"
+        },
+        {
+          "text": "Where can I find more information?"
+        },
+        {
+          "text": "Where can I find more information about covid?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                40,
+                45
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Where can I learn more about covid?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                29,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Where do I go about covid?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                20,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "text": "where I can call?"
+        },
+        {
+          "text": "Where should I call if I have symptoms?"
+        },
+        {
+          "text": "Where should I go?"
+        },
+        {
+          "text": "Where should I go if I suspect a coronavirus?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                33,
+                44
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Who can I contact?"
+        }
+      ],
+      "description": "Questions about contacts"
+    },
+    {
+      "intent": "1.1aboutVirus_WhatIsIt",
+      "examples": [
+        {
+          "text": "covid what it is",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I heard about covid, what is it?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                14,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Is covid disease?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                3,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "is covid the same as flu",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                3,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What does covid mean?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                10,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What is @covid?"
+        },
+        {
+          "text": "what is covid",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                8,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What is the difference between COVID-19 and coronavir.",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                31,
+                39
+              ]
+            }
+          ]
+        },
+        {
+          "text": "what is the difference between covid and flu",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                31,
+                36
+              ]
+            }
+          ]
+        },
+        {
+          "text": "where did covid come from?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                10,
+                15
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "What is a coronavirus"
+    },
+    {
+      "intent": "1.2aboutVirus_Transmission",
+      "examples": [
+        {
+          "text": "how can covid be transmitted",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                8,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How can I catch it?"
+        },
+        {
+          "text": "How can I get infected?"
+        },
+        {
+          "text": "How can I get sick covid?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                19,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "how covid spread",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                4,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How do I catch the virus",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                19,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How is covid transmitted?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                7,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "how many are infected in the United Kingdom"
+        },
+        {
+          "text": "How the disease spreads."
+        },
+        {
+          "text": "is covid portable from animals?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                3,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "is it possible to get infected the next day?"
+        },
+        {
+          "text": "number of infected"
+        },
+        {
+          "text": "Since when a person is able to infect other people"
+        },
+        {
+          "text": "transfer covid to others",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                9,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "where is the most infected"
+        }
+      ],
+      "description": "how it is transmitted"
+    },
+    {
+      "intent": "13.2.About_the_bot",
+      "examples": [
+        {
+          "text": "are you well?"
+        },
+        {
+          "text": "as you were."
+        },
+        {
+          "text": "how are you?"
+        },
+        {
+          "text": "how's it going?"
+        },
+        {
+          "text": "how you doing?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "13.3.About_Greeting",
+      "examples": [
+        {
+          "text": "bye"
+        },
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "hi"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "13.4.About_hate",
+      "examples": [
+        {
+          "text": "Everything is @hate"
+        },
+        {
+          "text": "hate"
+        },
+        {
+          "text": "I hate"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "It's hate"
+        },
+        {
+          "text": "She is hate"
+        },
+        {
+          "text": "this is shit"
+        },
+        {
+          "text": "You hate"
+        },
+        {
+          "text": "You're hate"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "1.4aboutVirus_HighRiskGroups",
+      "examples": [
+        {
+          "text": "am i in an increased risk group?"
+        },
+        {
+          "text": "I have cancer, am I at risk of coronavirus?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                31,
+                42
+              ]
+            }
+          ]
+        },
+        {
+          "text": "is covid dangerous to pregnant women?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                3,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "is it dangerous?"
+        },
+        {
+          "text": "What are the most vulnerable groups?"
+        },
+        {
+          "text": "what groups are most at risk"
+        },
+        {
+          "text": "What is the risk of coronavirus for pregnant women?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                20,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What risk does covid pose to pregnant women?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                15,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Which group is most at risk?"
+        },
+        {
+          "text": "who is covid most dangerous to?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                7,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "who is in danger"
+        },
+        {
+          "text": "who is most at risk"
+        },
+        {
+          "text": "who with covid are most at risk",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                9,
+                14
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "High Risk Groups"
+    },
+    {
+      "intent": "1.7aboutVirus_Incubation_Period",
+      "examples": [
+        {
+          "text": "How long does covid incubate",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                14,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How long does it take for symptoms to appear?"
+        },
+        {
+          "text": "How long does it take to get coronavirus symptoms?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                29,
+                40
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How long is the covid incubation period?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                16,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How long is the incubation period?"
+        },
+        {
+          "text": "Incubation of coronavirus?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                14,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Length of incubation period covid?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                28,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "text": "what is the incubation period?"
+        }
+      ],
+      "description": "Questions about the duration of the coronavirus incubation period."
+    },
+    {
+      "intent": "2.1.prevention_info",
+      "examples": [
+        {
+          "text": "Can I go outside when it's sunny?"
+        },
+        {
+          "text": "Can I protect myself by drinking alcohol?"
+        },
+        {
+          "text": "does eating garlic help?"
+        },
+        {
+          "text": "effective prevention against covid?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                29,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How can I avoid getting covid ?"
+        },
+        {
+          "text": "How can I prevent infection?"
+        },
+        {
+          "text": "how can I stop getting corona"
+        },
+        {
+          "text": "How do I prevent myself from covid infection?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                29,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How do I protect myself"
+        },
+        {
+          "text": "How to avoid getting covid",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                21,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "text": "how to sanitize unwrapped bread"
+        },
+        {
+          "text": "Should I avoid people?"
+        },
+        {
+          "text": "Should I sanitize my phone when I get home"
+        },
+        {
+          "text": "What is a good prevention?"
+        },
+        {
+          "text": "What is the best prevention?"
+        },
+        {
+          "text": "What is the most effective prevention?"
+        },
+        {
+          "text": "What rules should I follow to prevent covid.",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                38,
+                43
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What should I do to not get infected?"
+        },
+        {
+          "text": "What will help me to prevent covid infection?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                29,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Will it help to put the bread in the freezer?"
+        }
+      ],
+      "description": "Questions about prevention"
+    },
+    {
+      "intent": "2.2.Prevention_disinfection",
+      "examples": [
+        {
+          "text": "clean product",
+          "mentions": [
+            {
+              "entity": "product",
+              "location": [
+                6,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "disinfect product",
+          "mentions": [
+            {
+              "entity": "product",
+              "location": [
+                10,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "how do I clean my house"
+        },
+        {
+          "text": "how do I disinfect my home?"
+        },
+        {
+          "text": "How do I dispose of waste"
+        },
+        {
+          "text": "what cleaning products should I use?"
+        },
+        {
+          "text": "wipe product",
+          "mentions": [
+            {
+              "entity": "product",
+              "location": [
+                5,
+                12
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "food, goods, household disinfection"
+    },
+    {
+      "intent": "2.3.Prevention_howto_wash_hands",
+      "examples": [
+        {
+          "text": "Effective cleaning and hand washing"
+        },
+        {
+          "text": "How do I wash my hands?"
+        },
+        {
+          "text": "How do I wash my hands properly?"
+        },
+        {
+          "text": "How to wash your hands correctly?"
+        },
+        {
+          "text": "How to wash your hands properly?"
+        },
+        {
+          "text": "Wash your hands effectively"
+        }
+      ],
+      "description": "Questions about washing hands"
+    },
+    {
+      "intent": "2.4.Should_I_wear_a_facemask",
+      "examples": [
+        {
+          "text": "Can I protect myself by wearing a facemask",
+          "mentions": [
+            {
+              "entity": "mask",
+              "location": [
+                34,
+                42
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Is it advised to wear a facemask",
+          "mentions": [
+            {
+              "entity": "mask",
+              "location": [
+                24,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Is wearing a facemask recommended",
+          "mentions": [
+            {
+              "entity": "mask",
+              "location": [
+                13,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Should I wear a facemask"
+        },
+        {
+          "text": "When should I wear a facemask",
+          "mentions": [
+            {
+              "entity": "mask",
+              "location": [
+                21,
+                29
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Will a facemask protect me"
+        },
+        {
+          "text": "Will wearing a facemask prevent infection",
+          "mentions": [
+            {
+              "entity": "mask",
+              "location": [
+                15,
+                23
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "2.5.Protect_vulnerable",
+      "examples": [
+        {
+          "text": "How can I shield my family?"
+        },
+        {
+          "text": "how do i prevent people with vulnerable from getting the virus?",
+          "mentions": [
+            {
+              "entity": "vulnerable",
+              "location": [
+                29,
+                39
+              ]
+            },
+            {
+              "entity": "family",
+              "location": [
+                17,
+                23
+              ]
+            },
+            {
+              "entity": "covid",
+              "location": [
+                57,
+                62
+              ]
+            }
+          ]
+        },
+        {
+          "text": "how do I protect my roommate who has cancer:"
+        },
+        {
+          "text": "how do I protect people with vulnerable from getting the virus?",
+          "mentions": [
+            {
+              "entity": "vulnerable",
+              "location": [
+                29,
+                39
+              ]
+            },
+            {
+              "entity": "family",
+              "location": [
+                17,
+                23
+              ]
+            },
+            {
+              "entity": "covid",
+              "location": [
+                57,
+                62
+              ]
+            }
+          ]
+        },
+        {
+          "text": "how do I shield people with vulnerable against the virus?",
+          "mentions": [
+            {
+              "entity": "vulnerable",
+              "location": [
+                28,
+                38
+              ]
+            },
+            {
+              "entity": "family",
+              "location": [
+                16,
+                22
+              ]
+            },
+            {
+              "entity": "covid",
+              "location": [
+                51,
+                56
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my partner has cancer, should they self-isolate?",
+          "mentions": [
+            {
+              "entity": "vulnerable",
+              "location": [
+                15,
+                21
+              ]
+            },
+            {
+              "entity": "self_isolation",
+              "location": [
+                35,
+                47
+              ]
+            },
+            {
+              "entity": "family",
+              "location": [
+                3,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "should I avoid people with vulnerable?",
+          "mentions": [
+            {
+              "entity": "vulnerable",
+              "location": [
+                27,
+                37
+              ]
+            }
+          ]
+        },
+        {
+          "text": "who are classed as high risk"
+        },
+        {
+          "text": "who are high risk"
+        },
+        {
+          "text": "who are hight risk?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "3.1.Symptoms.What_are_the_symptoms",
+      "examples": [
+        {
+          "text": "Do I have coronavirus?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                10,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How do I know if I have coronavirus?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                24,
+                35
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I have a headache",
+          "mentions": [
+            {
+              "entity": "symptom",
+              "location": [
+                9,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I have a symptom",
+          "mentions": [
+            {
+              "entity": "symptom",
+              "location": [
+                9,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What are the symptoms of coronavirus?",
+          "mentions": [
+            {
+              "entity": "symptom",
+              "location": [
+                13,
+                21
+              ]
+            },
+            {
+              "entity": "covid",
+              "location": [
+                25,
+                36
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "What are the symptoms?"
+    },
+    {
+      "intent": "3.2.Symptoms.what_to_do_symptoms",
+      "examples": [
+        {
+          "text": "Burning chest"
+        },
+        {
+          "text": "curved neck"
+        },
+        {
+          "text": "how can a man know he has become infected?"
+        },
+        {
+          "text": "How do I know I'm sick?"
+        },
+        {
+          "text": "how to distinguish it from a common cold."
+        },
+        {
+          "text": "I am feeling unwell"
+        },
+        {
+          "text": "I can't breathe"
+        },
+        {
+          "text": "I feel signs"
+        },
+        {
+          "text": "if I feel symptoms of the disease?"
+        },
+        {
+          "text": "I have a fever.  What do I do?"
+        },
+        {
+          "text": "I have a headache, do I have covid?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                29,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I have a temperature and cough. Do I have covid?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                42,
+                47
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I have a temperature of 40 what should I do"
+        },
+        {
+          "text": "I have a temperature of 40 what should I do?"
+        },
+        {
+          "text": "I have symptoms of illness"
+        },
+        {
+          "text": "I'm afraid I got covid",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                17,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i'm feeling unwell.  what should I do?"
+        },
+        {
+          "text": "I'm not feeling very well"
+        },
+        {
+          "text": "irritating cough"
+        },
+        {
+          "text": "is a headache a covid symptom?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                16,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Is a rash a covid flag?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                12,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I think I have an covid",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                18,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My girlfriend has covid flags",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                18,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My husband has flags covid",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                21,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "text": "symptoms"
+        },
+        {
+          "text": "temperature"
+        },
+        {
+          "text": "wet cough"
+        },
+        {
+          "text": "What are the covid symptoms?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                13,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "what are the symptoms"
+        },
+        {
+          "text": "What are the symptoms of the disease?"
+        },
+        {
+          "text": "what covid has symptoms",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                5,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What do I do if I have covid?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                23,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "what if i have asthma"
+        },
+        {
+          "text": "what symptoms are typical of this disease?"
+        }
+      ],
+      "description": "symptoms"
+    },
+    {
+      "intent": "3.3.Symptoms.shortnessOfBreath",
+      "examples": [
+        {
+          "text": "How does dyspnea feel like?"
+        },
+        {
+          "text": "How does hyperventilation feel like?"
+        },
+        {
+          "text": "Respiratory problems"
+        },
+        {
+          "text": "What are the symptoms of dyspnea?"
+        },
+        {
+          "text": "What is dyspnea?"
+        },
+        {
+          "text": "What is hyperventilation?"
+        }
+      ],
+      "description": "shortness of breath"
+    },
+    {
+      "intent": "3.4.What_is_a_high_temperature",
+      "examples": [
+        {
+          "text": "high temperature"
+        },
+        {
+          "text": "how high is temperature for a fever"
+        },
+        {
+          "text": "My temperature is over 38 degrees"
+        },
+        {
+          "text": "what is a high temperature for a child"
+        },
+        {
+          "text": "what is normal body temperature"
+        },
+        {
+          "text": "what is normal temperature for a child"
+        },
+        {
+          "text": "what is the normal body temperature for an adult"
+        },
+        {
+          "text": "what is the normal body temperature in children"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "4.1.Treatment_vaccine",
+      "examples": [
+        {
+          "text": "How to get vaccinated?"
+        },
+        {
+          "text": "Is there a medicine against @covid?"
+        },
+        {
+          "text": "Vaccine for @covid?"
+        },
+        {
+          "text": "What medicine is for @covid?"
+        }
+      ],
+      "description": "Vaccine information"
+    },
+    {
+      "intent": "4.2.Treatment_info",
+      "examples": [
+        {
+          "text": "has a fever"
+        },
+        {
+          "text": "has a high temperature"
+        },
+        {
+          "text": "How do I get help for @covid"
+        },
+        {
+          "text": "I am coughing"
+        },
+        {
+          "text": "I have a cough"
+        },
+        {
+          "text": "I have a fever"
+        },
+        {
+          "text": "I have a high temperature"
+        },
+        {
+          "text": "I'm feeling unwell"
+        },
+        {
+          "text": "I'm not feeling well"
+        },
+        {
+          "text": "my mum has coronavirus how can I help?"
+        },
+        {
+          "text": "So what is the treatment of this disease?"
+        },
+        {
+          "text": "Treat @covid"
+        },
+        {
+          "text": "What drugs should I take for @covid"
+        },
+        {
+          "text": "What is @covid treatment?"
+        },
+        {
+          "text": "What is the treatment for @covid?"
+        },
+        {
+          "text": "What medicine can I take for @covid?"
+        }
+      ],
+      "description": "Treatment information"
+    },
+    {
+      "intent": "4.4.Treatment_examination",
+      "examples": [
+        {
+          "text": "Can I get tested at home?"
+        },
+        {
+          "text": "can I go to hospital to get tested"
+        },
+        {
+          "text": "can I go to my doctor to get tested?"
+        },
+        {
+          "text": "can I go to my gp to get tested?"
+        },
+        {
+          "text": "Can I test for @covid during the incubation period?"
+        },
+        {
+          "text": "Can I test myself?"
+        },
+        {
+          "text": "get tested"
+        },
+        {
+          "text": "How can I get a test for @covid?"
+        },
+        {
+          "text": "How can I investigate @covid?"
+        },
+        {
+          "text": "I need to be investigated for @covid."
+        },
+        {
+          "text": "Is it possible to detect the disease in the incubation period?"
+        },
+        {
+          "text": "Is the @covid test able to detect the infection during the incubation period?"
+        },
+        {
+          "text": "I want to investigate @covid."
+        },
+        {
+          "text": "I want to test for @covid"
+        },
+        {
+          "text": "Test for @covid, when is it able to detect disease?"
+        },
+        {
+          "text": "testing"
+        },
+        {
+          "text": "what are the symptons for @covid?"
+        },
+        {
+          "text": "When is shop open to test for @covid?"
+        },
+        {
+          "text": "where can I get tested"
+        },
+        {
+          "text": "where to order coronavirus test"
+        },
+        {
+          "text": "Who can I contact if I want to investigate the presence of a @covid infection?"
+        }
+      ],
+      "description": "Who can I contact if I want to be examined for the presence of COVID-19 infection?"
+    },
+    {
+      "intent": "4.5.Treatment_hospital_capacity",
+      "examples": [
+        {
+          "text": "How many hospital beds are available for @covid?"
+        },
+        {
+          "text": "How many hospital beds do we have in UK"
+        },
+        {
+          "text": "How many hospital spaces are available in our hospitals"
+        },
+        {
+          "text": "How many spaces are available in hospitals?"
+        },
+        {
+          "text": "What is the hospital capacity for @covid?"
+        }
+      ],
+      "description": "hospital spaces"
+    },
+    {
+      "intent": "4.7.Treatment_medication",
+      "examples": [
+        {
+          "text": "can @medication help out?"
+        },
+        {
+          "text": "Can @medication lower the temperature of a possible @covid infection?"
+        },
+        {
+          "text": "Can we @medication lower the temperature?"
+        },
+        {
+          "text": "Does @medication work?"
+        },
+        {
+          "text": "Does @medication work to reduce the @covid temperature?"
+        },
+        {
+          "text": "How to lower the temperature of the @covid disease?"
+        },
+        {
+          "text": "I heard about @medication treatment"
+        },
+        {
+          "text": "Is it possible to lower the temperature using @medication?"
+        },
+        {
+          "text": "need to take @medication intravenously"
+        },
+        {
+          "text": "what @medication helps @covid"
+        }
+      ],
+      "description": "medication"
+    },
+    {
+      "intent": "4.8.Treatment_reched_capacity",
+      "examples": [
+        {
+          "text": "All hospitals are full, they sent me home "
+        },
+        {
+          "text": "How to cure myself, if I'm not accepted to the hospital"
+        },
+        {
+          "text": "If a large number of people are infected and hospitals do not manage to treat everyone, home quarantine and self-medication will be recommended. What should an infected person do to self-treat?"
+        },
+        {
+          "text": "The hospital has no beds"
+        },
+        {
+          "text": "The hospital sent me home because they don't have space"
+        },
+        {
+          "text": "What will happen when hospitals are full"
+        }
+      ],
+      "description": "capacity"
+    },
+    {
+      "intent": "5.1.Quarantine_what_to_do",
+      "examples": [
+        {
+          "text": "A colleague is not following self_isolation, what should I do?",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                29,
+                43
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Are people who are self_isolation being checked on?",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                19,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How does self_isolation work?",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                9,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How strictly will the government be checking on people in self_isolation?",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                58,
+                72
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Should I be self isolating?"
+        },
+        {
+          "text": "What can I do whilst I am in self_isolation?",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                29,
+                43
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What exactly does self_isolation mean?",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                18,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What if I don't follow self_isolation?",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                23,
+                37
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What is self_isolation?",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                8,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What should I do if I have been told to self_isolation?",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                40,
+                54
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What should I do in during self_isolation?",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                27,
+                41
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Who is checking on people that are self_isolation?",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                35,
+                49
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "Questions in regards to self-isolation"
+    },
+    {
+      "intent": "5.2.Quarantine_visits",
+      "examples": [
+        {
+          "text": "Are any visits allowed during quarantine?"
+        },
+        {
+          "text": "Can I be visited during quarantine?"
+        },
+        {
+          "text": "Can my friends visit me?"
+        },
+        {
+          "text": "Can someone come to see me during quarantine?"
+        },
+        {
+          "text": "What is a safe distance when picking up my delivery?"
+        },
+        {
+          "text": "Which visits are allowed during quarantine?"
+        }
+      ],
+      "description": "Questions in regards of visits during quorontine."
+    },
+    {
+      "intent": "5.3.Quarantine_living_alone",
+      "examples": [
+        {
+          "text": "can i exercise"
+        },
+        {
+          "text": "can I exercise?"
+        },
+        {
+          "text": "can I go for a run?"
+        },
+        {
+          "text": "Can I go for a run during lockdown?",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                26,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Can I go running?"
+        },
+        {
+          "text": "Can I go shopping while in quarantine?",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                27,
+                37
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Can I go to the shops?"
+        },
+        {
+          "text": "Can I order food while in quarantine",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                26,
+                36
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Can i walk my dog?"
+        },
+        {
+          "text": "I live alone and I don't have any food"
+        },
+        {
+          "text": "I'm in quarantine, can I go for a walk?",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                7,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I'm in quarantine, can I go to the garden?",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                7,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Is walking my dog allowed during lockdown?",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                33,
+                41
+              ]
+            }
+          ]
+        },
+        {
+          "text": "There is no one to get my shopping for me what can I do?"
+        },
+        {
+          "text": "What can I do if I am in quarantine and I live alone",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                25,
+                35
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What if I live alone and I'm in quarantine?",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                32,
+                42
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "Questions about the situation if I live alone while in selg-isolation."
+    },
+    {
+      "intent": "5.4.Quarantine_living_with_others",
+      "examples": [
+        {
+          "text": "A member of the family is quarantined, does it affect me?",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                26,
+                37
+              ]
+            },
+            {
+              "entity": "family",
+              "location": [
+                16,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How am I supposed to be quarantined when I live with other people?",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                24,
+                35
+              ]
+            },
+            {
+              "entity": "family",
+              "location": [
+                59,
+                65
+              ]
+            }
+          ]
+        },
+        {
+          "text": "how do I self-isolate when I live with others"
+        },
+        {
+          "text": "I have a roommate and I am in quarantine.",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                30,
+                40
+              ]
+            },
+            {
+              "entity": "family",
+              "location": [
+                9,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I live with my family, how does quarantine work?",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                32,
+                42
+              ]
+            },
+            {
+              "entity": "family",
+              "location": [
+                15,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I'm in the apartment with my girlfriend and I'm in quarantine, now?",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                51,
+                61
+              ]
+            },
+            {
+              "entity": "family",
+              "location": [
+                29,
+                39
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My wife is in quarantine, do I have to be?",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                14,
+                24
+              ]
+            },
+            {
+              "entity": "family",
+              "location": [
+                3,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What if I live in a household with more people, how is the quarantine handled in this case?",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                59,
+                69
+              ]
+            },
+            {
+              "entity": "family",
+              "location": [
+                40,
+                46
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "Questions about when someone shares an apartment / house with other people."
+    },
+    {
+      "intent": "5.6.How_long_do_I_need_to_self_isolate",
+      "examples": [
+        {
+          "text": "For how long am I stuck at home?"
+        },
+        {
+          "text": "How long does covid last?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                14,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How long does home self_isolation last?",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                19,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "text": "how long do I have to stay at home?"
+        },
+        {
+          "text": "How long do I have to stay in self_isolation?",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                30,
+                44
+              ]
+            }
+          ]
+        },
+        {
+          "text": "how long do I have to stay inside?"
+        },
+        {
+          "text": "How long should I stay in self_isolation?",
+          "mentions": [
+            {
+              "entity": "self_isolation",
+              "location": [
+                26,
+                40
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "How long do I need so self-isolate?"
+    },
+    {
+      "intent": "8.1globalcovid_spread",
+      "examples": [
+        {
+          "text": "How can I track the global spread of @covid"
+        },
+        {
+          "text": "How many ill people are there in the world?"
+        },
+        {
+          "text": "How many people are infected with @covid in the UK"
+        },
+        {
+          "text": "How many people fell ill in the world?"
+        },
+        {
+          "text": "How many people have been infected with @covid in Britain"
+        },
+        {
+          "text": "How many people have died from @covid in Britain"
+        },
+        {
+          "text": "How many people have died in the world?"
+        },
+        {
+          "text": "How many people have got coronavirus?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                25,
+                36
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Where can I find information about the @covid situation in the world?"
+        },
+        {
+          "text": "Where has covid SARS-CoV-2 already been detected?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                10,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Where is covid?",
+          "mentions": [
+            {
+              "entity": "covid",
+              "location": [
+                9,
+                14
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "Questions in regards of CoV spread in the world."
+    },
+    {
+      "intent": "8.2globalcovid_pandemic",
+      "examples": [
+        {
+          "text": "How is a pandemic different from an epidemic?"
+        },
+        {
+          "text": "The WHO has declared a pandemic status in the world. What does it mean specifically?",
+          "mentions": [
+            {
+              "entity": "who",
+              "location": [
+                4,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What does pandemic mean?"
+        },
+        {
+          "text": "What is a pandemic?"
+        },
+        {
+          "text": "What is a pandemic about?"
+        }
+      ],
+      "description": "Questions about what a pandemic is."
+    },
+    {
+      "intent": "8.3globalcovid_WHO",
+      "examples": [
+        {
+          "text": "What does the World Health Organization (@who) think about the next procedure?"
+        },
+        {
+          "text": "What does @who and other international organizations recommend regarding coronavirus?"
+        },
+        {
+          "text": "What does @who do?"
+        },
+        {
+          "text": "What does @who say?"
+        },
+        {
+          "text": "What is his position on @who?"
+        }
+      ],
+      "description": "Questions on the WHO organisation."
+    },
+    {
+      "intent": "general_Help",
+      "examples": [
+        {
+          "text": "Can you help?"
+        },
+        {
+          "text": "help"
+        },
+        {
+          "text": "I don't know what to do"
+        },
+        {
+          "text": "I'm scared"
+        },
+        {
+          "text": "I'm scared, what should I do?"
+        },
+        {
+          "text": "I need help"
+        },
+        {
+          "text": "What should I do?"
+        }
+      ],
+      "description": "i need help"
+    },
+    {
+      "intent": "general_no_answer",
+      "examples": [
+        {
+          "text": "general_no_answer"
+        },
+        {
+          "text": "no"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "general_ThankYou",
+      "examples": [
+        {
+          "text": "Cheers",
+          "mentions": [
+            {
+              "entity": "thanks",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "thank",
+          "mentions": [
+            {
+              "entity": "thanks",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "thanks",
+          "mentions": [
+            {
+              "entity": "thanks",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "thank you",
+          "mentions": [
+            {
+              "entity": "thanks",
+              "location": [
+                0,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "thx",
+          "mentions": [
+            {
+              "entity": "thanks",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "tom"
+        }
+      ],
+      "description": "thank you"
+    },
+    {
+      "intent": "general_yes_answer",
+      "examples": [
+        {
+          "text": "ano"
+        },
+        {
+          "text": "general_yes_answer"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "child",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "child",
+          "synonyms": [
+            "babies",
+            "baby",
+            "boy",
+            "boys",
+            "children",
+            "daughter",
+            "daughters",
+            "girl",
+            "girls",
+            "infant",
+            "infants",
+            "kid",
+            "newborn",
+            "newborns",
+            "son",
+            "sons",
+            "toddler",
+            "toddlers"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "covid",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "corona",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "coronavirus",
+          "synonyms": [
+            "coronavir",
+            "corona virus",
+            "coronavirus",
+            "covid",
+            "covid-19",
+            "new coronavirus",
+            "novel",
+            "novel corona virus",
+            "novel coronavirus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "covid",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "COVID-19",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "virus",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "family",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "family",
+          "synonyms": [
+            "aunt",
+            "babies",
+            "baby",
+            "boy",
+            "boyfriend",
+            "boyfriends",
+            "brother",
+            "brothers",
+            "buddies",
+            "buddy",
+            "child",
+            "children",
+            "colleague",
+            "colleagues",
+            "cousin",
+            "cousins",
+            "coworker",
+            "coworkers",
+            "dad",
+            "daddy",
+            "daughter",
+            "daughters",
+            "dude",
+            "families",
+            "father",
+            "fiance",
+            "fiancé",
+            "fiancee",
+            "fiancée",
+            "flatmate",
+            "friend",
+            "friends",
+            "girl",
+            "girlfriend",
+            "girlfriends",
+            "girls",
+            "grandchild",
+            "granddaughter",
+            "granddaughters",
+            "grandfathers",
+            "grandma",
+            "grandmother",
+            "grandmothers",
+            "grandpa",
+            "grandparents",
+            "grandson",
+            "guy",
+            "housemate",
+            "hubby",
+            "husband",
+            "infant",
+            "infants",
+            "kid",
+            "kids",
+            "lover",
+            "mama",
+            "man",
+            "mom",
+            "momma",
+            "mommy",
+            "mother",
+            "mothers",
+            "mum",
+            "nephew",
+            "newborns",
+            "niece",
+            "other half",
+            "pals",
+            "parents",
+            "partner",
+            "partners",
+            "relatives",
+            "roomie",
+            "roommate",
+            "sibling",
+            "siblings",
+            "sister",
+            "sisters",
+            "son",
+            "sons",
+            "spouse",
+            "tenant",
+            "tenants",
+            "wife",
+            "woman"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "girlfriend",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "husband",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "partner",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "people",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "roommate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "wife",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "inside",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "home",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "inside",
+          "synonyms": [
+            "confining",
+            "home",
+            "homes",
+            "house",
+            "in",
+            "indoor",
+            "indoors",
+            "residence",
+            "within"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "lockdown",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "lockdown",
+          "synonyms": [
+            "confinement",
+            "containment",
+            "curfew",
+            "curfews",
+            "dentention",
+            "detained",
+            "detainment",
+            "detention",
+            "detentions",
+            "imprisonment",
+            "incarceration",
+            "internment",
+            "lock",
+            "lock-down",
+            "lockdowns",
+            "lockout",
+            "quarantine",
+            "quarantines",
+            "quarantining"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "mask",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "facemask",
+          "synonyms": [
+            "deflectors",
+            "eyewear",
+            "face mask",
+            "facemasks",
+            "faceshield",
+            "faceshields",
+            "goggle",
+            "goggles",
+            "helmet",
+            "helmets",
+            "mask",
+            "masks",
+            "masque",
+            "masques",
+            "visor",
+            "visors"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mask",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "masks",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "protective mask",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "protective masks",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "respirator",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "respirators",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ventilator",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ventilators",
+          "synonyms": [
+            "intubate",
+            "intubated",
+            "intubating",
+            "intubation",
+            "intubations",
+            "respirator",
+            "respirators",
+            "ventilate",
+            "ventilation",
+            "ventilator"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "medication",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ibuprofen",
+          "synonyms": [
+            "nurofen"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "paracetamol",
+          "synonyms": [
+            "calpol",
+            "panadol"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "vitamin C",
+          "synonyms": [
+            "vitamins"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "package",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "letter",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "letters",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "mail",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "package",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "packages",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "parcel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "parcels",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "product",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "electronics",
+          "synonyms": [
+            "computers",
+            "electronic",
+            "keyboard",
+            "mac",
+            "mobile phone",
+            "mouse",
+            "pc",
+            "phone",
+            "remote",
+            "remote control",
+            "smartphone",
+            "telephone"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "floors",
+          "synonyms": [
+            "floor"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "handle",
+          "synonyms": [
+            "handles",
+            "handrails",
+            "table tops"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "product",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "publicFacilities",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "casino",
+          "synonyms": [
+            "arcade",
+            "arcades",
+            "casinos",
+            "slots"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cosmetic services",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "driving school",
+          "synonyms": [
+            "driving lessons"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "entertainment facilities",
+          "synonyms": [
+            "cine",
+            "ciné",
+            "cinema",
+            "cinéma",
+            "cinemas",
+            "cinematic",
+            "cinematographic",
+            "opera",
+            "theater",
+            "theaters",
+            "theatre",
+            "théâtre"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fitness",
+          "synonyms": [
+            "aerobics",
+            "gym",
+            "pilates",
+            "zumba"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "gallery",
+          "synonyms": [
+            "exhibition",
+            "exhibitions",
+            "exhibiton",
+            "galerie",
+            "galeries",
+            "gallerie",
+            "galleries",
+            "musée",
+            "museum",
+            "museums",
+            "musuem",
+            "photos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "gym",
+          "synonyms": [
+            "gymnasia",
+            "gymnasium",
+            "gymnasiums",
+            "gymnastics",
+            "gyms",
+            "jacuzzi",
+            "playground",
+            "pool",
+            "swim",
+            "swimming"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "library",
+          "synonyms": [
+            "bookshop",
+            "libary",
+            "libraries",
+            "public libraries"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pub",
+          "synonyms": [
+            "bar",
+            "bars",
+            "bistro",
+            "bistros",
+            "caf",
+            "cafe",
+            "café",
+            "cafes",
+            "cafés",
+            "cafeteria",
+            "coffee",
+            "coffeehouse",
+            "deli",
+            "delicatessen",
+            "diner",
+            "eateries",
+            "hotel",
+            "pizzeria",
+            "pubs",
+            "restaraunt",
+            "restaraunts",
+            "restaurant",
+            "restaurants",
+            "restraunt",
+            "restuarant",
+            "restuarants",
+            "resturant",
+            "resturants",
+            "tavern"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "publicFacilities",
+          "synonyms": [
+            "facilities",
+            "public facilities"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sauna",
+          "synonyms": [
+            "jacuzzi",
+            "saunas",
+            "solarium"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "shops",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "solarium",
+          "synonyms": [
+            "jacuzzis",
+            "sauna",
+            "saunas",
+            "sunbathe",
+            "sunbathing",
+            "sunbed",
+            "sunbeds",
+            "sundeck",
+            "sunloungers",
+            "waterslides"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "store",
+          "synonyms": [
+            "groceries",
+            "grocers",
+            "grocery",
+            "hypermarket",
+            "hypermarkets",
+            "mall",
+            "malls",
+            "merchants",
+            "outlet",
+            "outlets",
+            "retail",
+            "retailer",
+            "retailers",
+            "shop",
+            "shopkeepers",
+            "shopping",
+            "shopping centre",
+            "shopping centres",
+            "shops",
+            "storefronts",
+            "stores",
+            "supermarket",
+            "supermarkets"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "wellness",
+          "synonyms": [
+            "chiropractic",
+            "chiropractor",
+            "fitness",
+            "health",
+            "holistic",
+            "naturopathic",
+            "nutrition",
+            "physiotherapy",
+            "spa",
+            "spas",
+            "welfare",
+            "wellbeing",
+            "wellness services"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "self_isolation",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "country",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "isolation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "lockdown",
+          "synonyms": [
+            "confinement",
+            "containment",
+            "curfew",
+            "lock-down",
+            "lockdowns",
+            "locked down",
+            "lockeddown"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "quarantine",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "quarantined",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "self-isolate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "self-isolating",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "self-isolation",
+          "synonyms": [
+            "confinement",
+            "confinements",
+            "containment",
+            "isolate",
+            "isolates",
+            "isolating",
+            "isolation",
+            "quarantine",
+            "quarantined",
+            "quarantines",
+            "quarantining",
+            "reclusiveness",
+            "seclusion",
+            "segregated",
+            "segregates",
+            "segregating",
+            "segregation",
+            "self-isolating",
+            "separated",
+            "separates",
+            "separating",
+            "separation",
+            "separations",
+            "seperated",
+            "seperates",
+            "seperating",
+            "seperation",
+            "solitude"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "social distancing",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "social-distancing",
+          "synonyms": [
+            "distancing",
+            "social distancing"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "symptom",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cough",
+          "synonyms": [
+            "asthmatic",
+            "breathlessness",
+            "coughing",
+            "coughs",
+            "runny",
+            "shortness",
+            "sneeze",
+            "sneezing",
+            "sniffling",
+            "tiredness",
+            "wheeze",
+            "wheezing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fever",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "headache",
+          "synonyms": [
+            "ache",
+            "achey",
+            "aching",
+            "achy",
+            "breathlessness",
+            "disorientation",
+            "drowsiness",
+            "exhaustion",
+            "fatigue",
+            "headaches",
+            "headedness",
+            "lethargy",
+            "lightheadedness",
+            "malaise",
+            "pain",
+            "pains",
+            "shortness",
+            "sore",
+            "tiredness",
+            "wheezing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "symptoms",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "temperature",
+          "synonyms": [
+            "clammy",
+            "high temperature",
+            "hot",
+            "perspiration",
+            "perspire",
+            "perspired",
+            "perspires",
+            "perspiring",
+            "shivering",
+            "sodden",
+            "sweat",
+            "sweated",
+            "sweatiness",
+            "sweating",
+            "sweats",
+            "sweaty",
+            "sweltering",
+            "temp",
+            "temperatures",
+            "temperture",
+            "tempertures",
+            "temps"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "thanks",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Cheers",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "thank",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "thanks",
+          "synonyms": [
+            "appreciate",
+            "appreciated",
+            "appreciative",
+            "cheers",
+            "congrats",
+            "congratulations",
+            "delighted",
+            "elated",
+            "glad",
+            "grateful",
+            "greatful",
+            "hug",
+            "hugs",
+            "kisses",
+            "kudos",
+            "thank",
+            "thankful",
+            "thanking",
+            "thankyou",
+            "thanx",
+            "thks",
+            "thnx",
+            "thrilled",
+            "thx",
+            "tks",
+            "tnx",
+            "xoxo",
+            "yay"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "thank you",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "thx",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "vulnerable",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cancer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pregnant",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "respiratory",
+          "synonyms": [
+            "asthma",
+            "copd",
+            "cystic fibrosis"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "transplant",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "underlying",
+          "synonyms": [
+            "medical condition"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "vulnerable",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "who",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "WHO",
+          "synonyms": [
+            "who",
+            "World Health Organisation",
+            "World Health Organization"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Can the virus spread via post or parcels?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<strong>Handling post or packages</strong>\n<br />\nStaff should continue to follow existing risk assessments and safe systems of working; there are no additional precautions needed for handling posts or packages.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_5_1584135298314",
+      "conditions": "#1.6.aboutVirus_PostalServices",
+      "dialog_node": "node_10_1584135763444",
+      "previous_sibling": "node_5_1584135490124"
+    },
+    {
+      "type": "folder",
+      "title": "5.Self-Isolation",
+      "conditions": "",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1584276146656",
+      "previous_sibling": "node_5_1584180254187"
+    },
+    {
+      "type": "standard",
+      "title": "How long is the incubation period for COVID-19?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<strong>How long is the incubation period for COVID-19?</strong>\n<br />\nThe “incubation period” means the time between catching the virus and beginning to have symptoms of the disease. Most estimates of the incubation period for COVID-19 range from 1-14 days, most commonly around five days. These estimates will be updated as more data become available.\n<br />"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1584135298314",
+      "conditions": "#1.7aboutVirus_Incubation_Period",
+      "dialog_node": "node_1_1584295686127",
+      "previous_sibling": "node_10_1584135763444"
+    },
+    {
+      "type": "standard",
+      "title": "0.InputLength",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Unfortunately, you have entered more than 150 characters, which significantly reduces my ability to understand you. Please shorten your query below 150 characters (eg you can shorten your answer by greeting or thank you)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "input.text.length() > 150",
+      "dialog_node": "node_1_1584349468686",
+      "previous_sibling": "Vítejte"
+    },
+    {
+      "type": "standard",
+      "title": "How long do I need to self-isolate for?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<strong>How long to self-isolate</strong>\n<br />\n<strong>If you have symptoms of coronavirus, you'll need to self-isolate for 14 days.</strong>\n<br />\nAfter 14 days:\n<br />\n<ul>\n<li>if you do not have a high temperature, you do not need to self-isolate</li>\n<li>if you still have a high temperature, keep self-isolating until your temperature returns to normal</li>\n<li>You do not need to self-isolate if you just have a cough after 14 days. A cough can last for several weeks after the infection has gone.</li>\n</ul>\n<br />\n<br />"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1584276146656",
+      "conditions": "#5.6.How_long_do_I_need_to_self_isolate",
+      "dialog_node": "node_1_1585230944399",
+      "previous_sibling": "node_6_1584276504516"
+    },
+    {
+      "type": "standard",
+      "title": "What happens when the hospital is at full capacity?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "There is currently sufficient capacity at hospitals.  However, with growth in the number of cases of coronavirus expected."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1584180254187",
+      "conditions": "#4.8.Treatment_reched_capacity",
+      "dialog_node": "node_2_1584184493070",
+      "previous_sibling": "node_7_1584181989820"
+    },
+    {
+      "type": "standard",
+      "title": "How do I protect the medically vulnerable?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Shielding is a measure to protect extremely vulnerable people by minimising interaction between those who are extremely vulnerable and others. This means that those who are extremely vulnerable should not leave their homes, and within their homes should minimise all non-essential contact with other members of their household. This is to protect those who are at very high risk of severe illness from coronavirus (COVID-19) from coming into contact with"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1584218829962",
+      "conditions": "#2.5.Protect_vulnerable",
+      "dialog_node": "node_2_1585231008828",
+      "previous_sibling": "node_5_1585229662215"
+    },
+    {
+      "type": "folder",
+      "title": "3.Symptoms",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1585242714391",
+      "previous_sibling": "node_6_1584218829962"
+    },
+    {
+      "type": "standard",
+      "title": "What are the symptoms of COVID-19?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<strong>Do not leave your home if you have coronavirus symptoms</strong>\n<br />\nDo not leave your home if you have either:\n<br />\n<ul>\n<li>a high temperature – this means you feel hot to touch on your chest or back (you do not need to measure your temperature)</li>\n<li>a new, continuous cough – this means coughing a lot for more than an hour, or 3 or more coughing episodes in 24 hours (if you usually have a cough, it may be worse than usual)</li>\n</ul>\n<br />\nTo protect others, do not go to places like a pharmacy or hospital. Stay at home."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1585242714391",
+      "conditions": "#3.1.Symptoms.What_are_the_symptoms",
+      "dialog_node": "node_2_1585242761552"
+    },
+    {
+      "type": "standard",
+      "title": "What is the capacity of our hospitals?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "There is currently sufficient intensive care capacity.  However, with growth in the number of severe cases of coronavirus expected\n<br />"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1584180254187",
+      "conditions": "#4.5.Treatment_hospital_capacity",
+      "dialog_node": "node_3_1584181917762",
+      "previous_sibling": "node_4_1584181635613"
+    },
+    {
+      "type": "standard",
+      "title": "Who can I contact for more information?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<strong>What to do if you need medical help</strong>\nIf you have symptoms of coronavirus (a high temperature or a new, continuous cough) For further information, Contact “Suwasariya”\n24 HOURS TRILINGUAL HEALTH HOTLINE - 1999\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 1000,
+            "typing": true,
+            "response_type": "pause"
+          }
+        ]
+      },
+      "parent": "node_7_1584191852399",
+      "conditions": "#10.1contacts",
+      "dialog_node": "node_3_1584191863913"
+    },
+    {
+      "type": "standard",
+      "title": "How can I help to prevent the spread of the virus?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Stay at home to help stop the spread of coronavirus.  Washing your hands regularly is an important prevention measure as with other viral diseases.  Other measures to stop infection spreading are described"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 1500,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "What is the coronavirus?",
+                "value": {
+                  "input": {
+                    "text": "What is the coronavirus?"
+                  }
+                }
+              },
+              {
+                "label": "coronavirus treatment",
+                "value": {
+                  "input": {
+                    "text": "coronavirus treatment"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1584218829962",
+      "conditions": "#2.1.prevention_info",
+      "dialog_node": "node_3_1584219015807"
+    },
+    {
+      "type": "standard",
+      "title": "How Can I be tested for COVID-19?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Government carry out random PCR tests in the general public, but you can get tested from hospitals that provide that facility.\n<br />\nTesting for coronavirus is not needed if you’re staying at home.  Do not leave your home if you have either:\n<br />\n<li><b>a high temperature</b> – this means you feel hot to touch on your chest or back (you do not need to measure your temperature)</li>\n<li><b>a new, continuous cough</b> – this means coughing a lot for more than an hour, or 3 or more coughing episodes in 24 hours (if you usually have a cough, it may be worse than usual)</li>\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1584180254187",
+      "conditions": "#4.4.Treatment_examination",
+      "dialog_node": "node_4_1584181635613",
+      "previous_sibling": "node_5_1584180318973"
+    },
+    {
+      "type": "folder",
+      "title": "1.AboutVirus",
+      "dialog_node": "node_5_1584135298314",
+      "previous_sibling": "node_7_1584274614409"
+    },
+    {
+      "type": "standard",
+      "title": "Which groups of people are vulnerable?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<strong>Who's at high risk from coronavirus</strong>\n<br />\nCoronavirus can make anyone seriously ill, but there are some people who are at a higher risk.\n<br />\nFor example, you may be at high risk from coronavirus if you:\n<br />\n<ul>\n<li>have had an organ transplant.</li>\n<li>are having certain types of cancer treatment.</li>\n<li>have blood or bone marrow cancer, such as leukaemia.</li>\n<li>have a severe lung condition, such as cystic fibrosis or severe asthma.</li>\n<li>have a condition that makes you much more likely to get infections.</li>\n<li>are taking medicine that weakens your immune system.</li>\n<li>are pregnant and have a serious heart condition.</li>\n</ul>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1584135298314",
+      "conditions": "#1.4aboutVirus_HighRiskGroups",
+      "dialog_node": "node_5_1584135490124",
+      "previous_sibling": "node_6_1584135146514"
+    },
+    {
+      "type": "folder",
+      "title": "4.Treatment",
+      "dialog_node": "node_5_1584180254187",
+      "previous_sibling": "node_2_1585242714391"
+    },
+    {
+      "type": "standard",
+      "title": "How do you treat COVID-19?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do not leave your home if you have either:\n<br />\n<li><b>a high temperature</b> – this means you feel hot to touch on your chest or back (you do not need to measure your temperature)</li>\n<li><b>a new, continuous cough</b> – this means coughing a lot for more than an hour, or 3 or more coughing episodes in 24 hours (if you usually have a cough, it may be worse than usual)</li>\n<br />\nTo protect others, do not go to places like a pharmacy or hospital. Stay at home.\n<br />\nTo help yourself stay well while you're at home:\n<br />\n<li>drink plenty of water to stay hydrated – drink enough so your pee is pale and clear</li>\n<li>take paracetamol to help ease your symptoms</li>\n<li>stay in touch with family and friends over the phone or on social media, to help you avoid feeling low or lonely</li>\n<li>try to keep yourself busy – you could try activities like cooking, reading, online learning and watching films</li>\n<li>do light exercise, if you feel well enough to</li>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "what is a coronavirus",
+                "value": {
+                  "input": {
+                    "text": "what is a coronavirus"
+                  }
+                }
+              },
+              {
+                "label": "emergency",
+                "value": {
+                  "input": {
+                    "text": "emergency"
+                  }
+                }
+              },
+              {
+                "label": "symptoms",
+                "value": {
+                  "input": {
+                    "text": "symptoms"
+                  }
+                }
+              },
+              {
+                "label": "prevention",
+                "value": {
+                  "input": {
+                    "text": "prevention"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1584180254187",
+      "conditions": "#4.2.Treatment_info",
+      "dialog_node": "node_5_1584180318973",
+      "previous_sibling": "node_6_1584180272691"
+    },
+    {
+      "type": "standard",
+      "title": "Are visits allowed whilst I am self-isolating?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Self-isolation helps stop coronavirus spreading.\n<br />\n<strong>Do not</strong> leave your home if you have symptoms of coronavirus (COVID-19) or live with someone who does.\n<br />\nThis is called self-isolation.\n<br />\nIf you are self-isolating, you must:\n<br />\n<ul>\n<li>not leave your home for any reason, other than to exercise once a day – but stay at least 2 metres (3 steps) away from other people</li>\n<li>not go out to buy food or collect medicine – order them by phone or online, or ask someone else to drop them off at your home</li>\n<li>not have visitors, such as friends and family, in your home</li>\n</ul>\nYou can use your garden if you have one.</li>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1584276146656",
+      "conditions": "#5.2.Quarantine_visits",
+      "dialog_node": "node_5_1584276369570",
+      "previous_sibling": "node_8_1584276167108"
+    },
+    {
+      "type": "standard",
+      "title": "How can I wash my hands properly?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Regular hand washing is one of the easiest measures you can take. However, washing your hands correctly is not as easy as we think it is."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1584218829962",
+      "conditions": "#2.3.Prevention_howto_wash_hands",
+      "dialog_node": "node_5_1584296169157",
+      "previous_sibling": "node_8_1584282551155"
+    },
+    {
+      "type": "standard",
+      "title": "Should I wear a facemask?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If you are not fully vaccinated and aged 2 or older, you should wear a mask in indoor public places.\nIn general, you do not need to wear a mask in outdoor settings.\nIn areas with high numbers of COVID-19 cases, consider wearing a mask in crowded outdoor settings and for activities with close contact with others who are not fully vaccinated.\nPeople who have a condition or are taking medications that weaken their immune system may NOT be protected even if they are fully vaccinated. They should continue to take all precautions recommended for unvaccinated people, including wearing a well-fitted mask until advised otherwise by their healthcare provider."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1584218829962",
+      "conditions": "#2.4.Should_I_wear_a_facemask",
+      "dialog_node": "node_5_1585229662215",
+      "previous_sibling": "node_5_1584296169157"
+    },
+    {
+      "type": "standard",
+      "title": " How is COVID-19 transmitted?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Coronavirus is transmitted from person to person through close contact. It is a so-called droplet infection that is transmitted by air or via infected surfaces. Most often it affects the mucous membranes of the upper and lower airways and conjunctiva. The incubation period is about two to fourteen days. After a week of infection, the disease may be manifested by fevers that do not subside. They may be accompanied by discomfort, joint and muscle pain, and cough symptoms."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1584135298314",
+      "conditions": "#1.2aboutVirus_Transmission",
+      "dialog_node": "node_6_1584135146514",
+      "previous_sibling": "node_7_1584135040994"
+    },
+    {
+      "type": "standard",
+      "title": "Is there a vaccination?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can get one of Covishield, Sinopharm, Sputnik - V, Pfizer or Moderna vaccine in Sri Lanka"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1584180254187",
+      "conditions": "#4.1.Treatment_vaccine",
+      "dialog_node": "node_6_1584180272691"
+    },
+    {
+      "type": "folder",
+      "title": "2.Prevention",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1584218829962",
+      "previous_sibling": "node_5_1584135298314"
+    },
+    {
+      "type": "standard",
+      "title": "0.ResetMistakeCounter",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "mistakeCounter": 0
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_7_1584274614409"
+      },
+      "conditions": "intents.size() > 0 && intents[0].confidence > 0.4",
+      "dialog_node": "node_6_1584274645254",
+      "previous_sibling": "node_1_1584349468686",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "What should I do if I am in self-isolation and I live alone?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<strong>Stay at home to stop coronavirus spreading<strong>\n<br />\nEveryone must stay at home to help stop the spread of coronavirus.\n<br />\nYou should only leave the house for 1 of 4 reasons:\n<br />\n<ul>\n<li>shopping for basic necessities, for example food and medicine, which must be as infrequent as possible</li>\n<li>one form of exercise a day, for example a run, walk, or cycle – alone or with members of your household</li>\n<li>any medical need, or to provide care or to help a vulnerable person</li>\n<li>travelling to and from work, but only where this absolutely cannot be done from home</li>\n</ul>\n<br />\n<strong>Important</strong>\n<br />\nThese 4 reasons are exceptions – even when doing these activities, you should be minimising time spent outside of the home and ensuring you are 2 metres apart from anyone outside of your household."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1584276146656",
+      "conditions": "#5.3.Quarantine_living_alone",
+      "dialog_node": "node_6_1584276367926",
+      "previous_sibling": "node_5_1584276369570"
+    },
+    {
+      "type": "standard",
+      "title": "How am I supposed to self-isolate when I live with other people?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<strong>If you have symptoms and live with other people</strong>\n<br />\nIf you live with someone who is 70 or over, has a long-term condition, is pregnant or has a weakened immune system, try to arrange for them to stay with friends or family for 14 days.\n<br />\nIf you have to stay at home together, try to keep away from each other as much as possible.\n<br />\n<strong>Do</strong>\n<br />\n<ul>\n<li>try to keep 2 metres (3 steps) away from each other</li>\n<li>avoid using shared spaces, such as kitchens or bathrooms, at the same time as each other</li>\n<li>open windows in shared spaces if you can</li>\n<li>clean a shared bathroom each time you use it, for example by wiping the surfaces you have touched</li>\n<li>use a dishwasher if you have one – if you do not have one, use washing-up liquid and warm water and dry everything thoroughly</li>\n</ul>\n<br />\n<strong>Don't</strong>\n<br />\n<ul>\n<li>do not share a bed, if possible</li>\n<li>do not share towels, including hand towels and tea towels</li>\n</ul>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1584276146656",
+      "conditions": "#5.4.Quarantine_living_with_others",
+      "dialog_node": "node_6_1584276504516",
+      "previous_sibling": "node_6_1584276367926"
+    },
+    {
+      "type": "standard",
+      "title": "What is COVID-19?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "COVID-19 is a new illness that can affect your lungs and airways. It's caused by a virus called coronavirus.\n<br />\nSymptoms of coronavirus (COVID-19) are a cough, a high temperature and shortness of breath.\n<br />\nSimple measures like washing your hands often with soap and water can help stop viruses like coronavirus (COVID-19) spreading.\n<br />\nThere's no specific treatment for coronavirus (COVID-19). Treatment aims to relieve the symptoms until you recover.\n<br />\nIt's not known exactly how coronavirus (COVID-19) spreads from person to person, but similar viruses are spread in cough droplets.\n<br />\nThe virus first appeared in early December 2019 in the Chinese province of Hubei, Wuhan."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 800,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Coronavirus treatment",
+                "value": {
+                  "input": {
+                    "text": "coronavirus treatment"
+                  }
+                }
+              },
+              {
+                "label": "Symptoms",
+                "value": {
+                  "input": {
+                    "text": "symptoms"
+                  }
+                }
+              },
+              {
+                "label": "Prevention",
+                "value": {
+                  "input": {
+                    "text": "prevention"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1584135298314",
+      "conditions": "#1.1aboutVirus_WhatIsIt",
+      "dialog_node": "node_7_1584135040994"
+    },
+    {
+      "type": "standard",
+      "title": "How can I reduce my temperature?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<li>drink plenty of water to stay hydrated – drink enough so your pee is pale and clear</li>\n<li>take paracetamol to help ease your symptoms</li>\n<li>stay in touch with family and friends over the phone or on social media, to help you avoid feeling low or lonely</li>\n<li>try to keep yourself busy – you could try activities like cooking, reading, online learning and watching films</li>\n<li>do light exercise, if you feel well enough to</li>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1584180254187",
+      "conditions": "#4.7.Treatment_medication",
+      "dialog_node": "node_7_1584181989820",
+      "previous_sibling": "node_3_1584181917762"
+    },
+    {
+      "type": "folder",
+      "title": "10.Contacts",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1584191852399",
+      "previous_sibling": "node_10_1584276146656"
+    },
+    {
+      "type": "standard",
+      "title": "0.ResetEvaluation",
+      "conditions": "false",
+      "dialog_node": "node_7_1584274614409",
+      "previous_sibling": "node_6_1584274645254",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "What is self-isolation?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<strong>Self-isolation helps stop coronavirus spreading.</strong>\n<br /><br />\n<strong>Do not</strong> leave your home if you have symptoms of coronavirus (COVID-19) or live with someone who does.\n<br />\nThis is called self-isolation.\n<br />\nIf you are self-isolating, you must:\n<br />\n<ul>\n<li>not leave your home for any reason, other than to exercise once a day – but stay at least 2 metres (3 steps) away from other people</li>\n<li>not go out to buy food or collect medicine – order them by phone or online, or ask someone else to drop them off at your home</li>\n<li>not have visitors, such as friends and family, in your home</li>\n</ul>\nYou can use your garden, if you have one.</li>\n<br />"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1584276146656",
+      "conditions": "#5.1.Quarantine_what_to_do",
+      "dialog_node": "node_8_1584276167108"
+    },
+    {
+      "type": "standard",
+      "title": "How can I properly disinfect to prevent the spread of the virus?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "When cleaning you should use your usual household products, like detergents and bleach, as these will be very effective at getting rid of the virus on surfaces. Clean frequently touched surfaces such as door handles, handrails, remote controls and tabletops."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1584218829962",
+      "conditions": "#2.2.Prevention_disinfection",
+      "dialog_node": "node_8_1584282551155",
+      "previous_sibling": "node_3_1584219015807"
+    },
+    {
+      "type": "standard",
+      "title": "What is high body temperature",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your normal body temperature is approximately 37C.  A normal temperature in babies and children is about 36.4C, but this can vary slightly from child to child.  A fever is usually when your body temperature is 38C or higher. You may feel warm, cold or shivery.\n<br />\nYou can find out if you have a fever by using a thermometer to take your temperature.\n<br />\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "What action can I take?",
+            "options": [
+              {
+                "label": "How can I lower body temperature?",
+                "value": {
+                  "input": {
+                    "text": "Does paracetamol work"
+                  }
+                }
+              },
+              {
+                "label": "How can I avoid getting a fever?",
+                "value": {
+                  "input": {
+                    "text": "How can I prevent infection?"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1585242714391",
+      "conditions": "#3.4.What_is_a_high_temperature",
+      "dialog_node": "node_8_1585554840676",
+      "previous_sibling": "node_9_1584284933183"
+    },
+    {
+      "type": "standard",
+      "title": "What are the symptoms of the disease?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<strong>Do not leave your home if you have coronavirus symptoms</strong>\n<br />\nDo not leave your home if you have either:\n<br />\n<ul>\n<li>a high temperature – this means you feel hot to touch on your chest or back (you do not need to measure your temperature)</li>\n<li>a new, continuous cough – this means coughing a lot for more than an hour, or 3 or more coughing episodes in 24 hours (if you usually have a cough, it may be worse than usual)</li>\n</ul>\n<br />\nTo protect others, do not go to places like a pharmacy or hospital. Stay at home."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1585242714391",
+      "conditions": "#3.2.Symptoms.what_to_do_symptoms",
+      "dialog_node": "node_9_1584180584989",
+      "previous_sibling": "node_2_1585242761552"
+    },
+    {
+      "type": "standard",
+      "title": "What are the symptoms of shortness of breath?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Shortness of breath is characterized by subjectively perceived breathing problems. The patient feels heavily on his chest or lack of air, difficulty breathing. The patient feels a lack of air or has difficulty breathing.\n<br />\nTo protect others, do not go to places like a pharmacy or hospital. Stay at home.\n<br />"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1585242714391",
+      "conditions": "#3.3.Symptoms.shortnessOfBreath",
+      "dialog_node": "node_9_1584284933183",
+      "previous_sibling": "node_9_1584180584989"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "query": "",
+            "filter": "",
+            "query_type": "natural_language",
+            "response_type": "search_skill"
+          },
+          {
+            "values": [
+              {
+                "text": "Sorry, I didn't understand. Please try rewording your query or take a look at what I found below."
+              },
+              {
+                "text": "Could you ask again a little differently? I didn't understand. Alternatively, I found the below search results."
+              },
+              {
+                "text": "I didn't quite understand what you were asking. Please try again, asking in a different way or have a look at the search items below."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "V ostatních případech",
+      "context": {
+        "mistakeCounter": "<? $mistakeCounter + 1 ?>"
+      },
+      "dialog_node": "response_6_1584274785490",
+      "previous_sibling": "response_7_1584274790411"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "It seems I can't help you with your questions."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "V ostatních případech",
+      "context": {
+        "callOperator": true
+      },
+      "conditions": "$mistakeCounter >= 2",
+      "dialog_node": "response_7_1584274790411"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "DEV/TEST \n\nHello, What can I help you with?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "<b>Please ask each question as an individual sentence. </b>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Below are the most questioned topics",
+            "options": [
+              {
+                "label": "What is COVID-19?",
+                "value": {
+                  "input": {
+                    "text": "What is COVID-19?"
+                  }
+                }
+              },
+              {
+                "label": "What are the symptoms?",
+                "value": {
+                  "input": {
+                    "text": "What are the symptoms?"
+                  }
+                }
+              },
+              {
+                "label": "What is the treatment?",
+                "value": {
+                  "input": {
+                    "text": "What is the treatment?"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "context": {
+        "mistakeCounter": 0
+      },
+      "conditions": "welcome",
+      "dialog_node": "Vítejte"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "anything_else",
+      "dialog_node": "V ostatních případech",
+      "previous_sibling": "node_7_1584191852399",
+      "disambiguation_opt_out": true
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "it's dangerous?"
+    },
+    {
+      "text": "I want lemonade "
+    },
+    {
+      "text": "please I have a question about funerals"
+    }
+  ],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Can you please specify what you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 4,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "connect to a human advisor"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Please select:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Covid-19_support_general_info",
+  "language": "en",
+  "description": "Coronavirus Chatbot"
+}

@@ -1,0 +1,873 @@
+{
+  "name": "Covid-19 Consulting Service",
+  "type": "dialog",
+  "status": "Available",
+  "created": "2021-07-23T03:27:30.974Z",
+  "updated": "2021-07-23T04:43:16.014Z",
+  "language": "en",
+  "skill_id": "1111d14d-6dfa-4938-8974-b561cb7b7ed4",
+  "workspace": {
+    "actions": [
+      {
+        "steps": [
+          {
+            "step": "step_682",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "My pleasure. Just let me know if you need anything else"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_682"
+          }
+        ],
+        "title": "Thank you",
+        "action": "action_33176",
+        "handlers": [],
+        "condition": {
+          "intent": "action_33176_intent_10606"
+        },
+        "variables": [
+          {
+            "title": "My pleasure. Just let me know if you need anything else",
+            "variable": "step_682"
+          }
+        ],
+        "next_action": "action_5575",
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_238",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Do you feel any trouble breathing or persistent pain in the chest?"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "options": [
+                    {
+                      "label": "Yes ",
+                      "value": {
+                        "input": {
+                          "text": "Yes "
+                        }
+                      }
+                    },
+                    {
+                      "label": "No",
+                      "value": {
+                        "input": {
+                          "text": "No"
+                        }
+                      }
+                    }
+                  ],
+                  "response_type": "option",
+                  "repeat_on_reprompt": true
+                }
+              ]
+            },
+            "handlers": [
+              {
+                "type": "not_found",
+                "title": "validation_not_found_handler",
+                "output": {
+                  "generic": [
+                    {
+                      "values": [
+                        {
+                          "text": "I didn't catch that. Select a valid option:"
+                        }
+                      ],
+                      "response_type": "text"
+                    }
+                  ]
+                },
+                "handler": "validation_not_found_handler",
+                "resolver": {
+                  "type": "prompt_again"
+                },
+                "next_handler": "validation_not_found_max_tries_handler"
+              },
+              {
+                "type": "not_found_max_tries",
+                "title": "validation_not_found_max_tries_handler",
+                "output": {
+                  "generic": [
+                    {
+                      "values": [
+                        {
+                          "text": "I'm afraid I don't understand. Let me see if I can help another way."
+                        }
+                      ],
+                      "response_type": "text"
+                    }
+                  ]
+                },
+                "handler": "validation_not_found_max_tries_handler",
+                "resolver": {
+                  "type": "end_action"
+                }
+              }
+            ],
+            "question": {
+              "entity": "action_5575_step_238_entity_38645",
+              "max_tries": 3,
+              "only_populate_when_prompted": false
+            },
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_238",
+            "condition": {
+              "or": [
+                {
+                  "eq": [
+                    {
+                      "variable": "step_439"
+                    },
+                    {
+                      "value": "7 days",
+                      "from_entity": "action_5575_step_439_entity_35411"
+                    }
+                  ]
+                },
+                {
+                  "eq": [
+                    {
+                      "variable": "step_439"
+                    },
+                    {
+                      "value": "14 days",
+                      "from_entity": "action_5575_step_439_entity_35411"
+                    }
+                  ]
+                }
+              ]
+            },
+            "next_step": "step_846"
+          },
+          {
+            "step": "step_356",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Please isolate yourself and get rest."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_356",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_238"
+                },
+                {
+                  "value": "No",
+                  "from_entity": "action_5575_step_238_entity_38645"
+                }
+              ]
+            }
+          },
+          {
+            "step": "step_439",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "How long have you been experiencing the symptoms?"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "options": [
+                    {
+                      "label": "3 days",
+                      "value": {
+                        "input": {
+                          "text": "3 days"
+                        }
+                      }
+                    },
+                    {
+                      "label": "7 days",
+                      "value": {
+                        "input": {
+                          "text": "7 days"
+                        }
+                      }
+                    },
+                    {
+                      "label": "14 days",
+                      "value": {
+                        "input": {
+                          "text": "14 days"
+                        }
+                      }
+                    }
+                  ],
+                  "response_type": "option",
+                  "repeat_on_reprompt": true
+                }
+              ]
+            },
+            "handlers": [
+              {
+                "type": "not_found",
+                "title": "validation_not_found_handler",
+                "output": {
+                  "generic": [
+                    {
+                      "values": [
+                        {
+                          "text": "I didn't catch that. Select a valid option:"
+                        }
+                      ],
+                      "response_type": "text"
+                    }
+                  ]
+                },
+                "handler": "validation_not_found_handler",
+                "resolver": {
+                  "type": "prompt_again"
+                },
+                "next_handler": "validation_not_found_max_tries_handler"
+              },
+              {
+                "type": "not_found_max_tries",
+                "title": "validation_not_found_max_tries_handler",
+                "output": {
+                  "generic": [
+                    {
+                      "values": [
+                        {
+                          "text": "I'm afraid I don't understand. Let me see if I can help another way."
+                        }
+                      ],
+                      "response_type": "text"
+                    }
+                  ]
+                },
+                "handler": "validation_not_found_max_tries_handler",
+                "resolver": {
+                  "type": "end_action"
+                }
+              }
+            ],
+            "question": {
+              "entity": "action_5575_step_439_entity_35411",
+              "max_tries": 3,
+              "only_populate_when_prompted": false
+            },
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_439",
+            "next_step": "step_626"
+          },
+          {
+            "step": "step_626",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Please wait for few days and get rest."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_626",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_439"
+                },
+                {
+                  "value": "3 days",
+                  "from_entity": "action_5575_step_439_entity_35411"
+                }
+              ]
+            },
+            "next_step": "step_238"
+          },
+          {
+            "step": "step_846",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Please seek emergency medical care immediately!"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_846",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_238"
+                },
+                {
+                  "value": "Yes ",
+                  "from_entity": "action_5575_step_238_entity_38645"
+                }
+              ]
+            },
+            "next_step": "step_356"
+          },
+          {
+            "step": "step_957",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "People with COVID-19 have reported a wide range of symptoms – from mild symptoms to severe illness. Do you experience any of these symptoms?"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "options": [
+                    {
+                      "label": "Fever",
+                      "value": {
+                        "input": {
+                          "text": "Fever"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Cough",
+                      "value": {
+                        "input": {
+                          "text": "Cough"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Shortness of breath or difficulty breathing",
+                      "value": {
+                        "input": {
+                          "text": "Shortness of breath or difficulty breathing"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Fatigue",
+                      "value": {
+                        "input": {
+                          "text": "Fatigue"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Body aches",
+                      "value": {
+                        "input": {
+                          "text": "Body aches"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Headache",
+                      "value": {
+                        "input": {
+                          "text": "Headache"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Runny nose",
+                      "value": {
+                        "input": {
+                          "text": "Runny nose"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Vomiting",
+                      "value": {
+                        "input": {
+                          "text": "Vomiting"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Sore throat",
+                      "value": {
+                        "input": {
+                          "text": "Sore throat"
+                        }
+                      }
+                    },
+                    {
+                      "label": "New loss of taste or smell",
+                      "value": {
+                        "input": {
+                          "text": "New loss of taste or smell"
+                        }
+                      }
+                    }
+                  ],
+                  "response_type": "option",
+                  "repeat_on_reprompt": true
+                }
+              ]
+            },
+            "handlers": [
+              {
+                "type": "not_found",
+                "title": "validation_not_found_handler",
+                "output": {
+                  "generic": [
+                    {
+                      "values": [
+                        {
+                          "text": "I didn't catch that. Select a valid option:"
+                        }
+                      ],
+                      "response_type": "text"
+                    }
+                  ]
+                },
+                "handler": "validation_not_found_handler",
+                "resolver": {
+                  "type": "prompt_again"
+                },
+                "next_handler": "validation_not_found_max_tries_handler"
+              },
+              {
+                "type": "not_found_max_tries",
+                "title": "validation_not_found_max_tries_handler",
+                "output": {
+                  "generic": [
+                    {
+                      "values": [
+                        {
+                          "text": "I'm afraid I don't understand. Let me see if I can help another way."
+                        }
+                      ],
+                      "response_type": "text"
+                    }
+                  ]
+                },
+                "handler": "validation_not_found_max_tries_handler",
+                "resolver": {
+                  "type": "end_action"
+                }
+              }
+            ],
+            "question": {
+              "entity": "action_5575_step_957_entity_27152",
+              "max_tries": 3,
+              "only_populate_when_prompted": false
+            },
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_957",
+            "next_step": "step_439"
+          }
+        ],
+        "title": "What are the symptoms that covid-19 can cause?",
+        "action": "action_5575",
+        "handlers": [],
+        "condition": {
+          "intent": "action_5575_intent_48112"
+        },
+        "variables": [
+          {
+            "title": "Do you feel any trouble breathing or persistent pain in the ches",
+            "variable": "step_238"
+          },
+          {
+            "title": "Please isolate yourself and get rest.",
+            "variable": "step_356"
+          },
+          {
+            "title": "How long have you been experiencing the symptoms?",
+            "variable": "step_439"
+          },
+          {
+            "title": "Please wait for few days and get rest.",
+            "variable": "step_626"
+          },
+          {
+            "title": "Please seek emergency medical care immediately!",
+            "variable": "step_846"
+          },
+          {
+            "title": "People with COVID-19 have reported a wide range of symptoms – fr",
+            "variable": "step_957"
+          }
+        ],
+        "next_action": "anything_else",
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_001",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text": "I am afraid I do not understand what you are asking, please re-phrase your question."
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_001"
+          }
+        ],
+        "title": "Retry when no action matches",
+        "action": "anything_else",
+        "handlers": [],
+        "condition": {
+          "expression": "anything_else"
+        },
+        "variables": [
+          {
+            "variable": "step_001"
+          }
+        ],
+        "disambiguation_opt_out": true
+      },
+      {
+        "steps": [
+          {
+            "step": "step_001",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text": "Welcome, how can I assist you?"
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_001"
+          }
+        ],
+        "title": "Greet customer",
+        "action": "welcome",
+        "handlers": [],
+        "condition": {
+          "expression": "welcome"
+        },
+        "variables": [
+          {
+            "variable": "step_001"
+          }
+        ],
+        "next_action": "action_33176",
+        "disambiguation_opt_out": true
+      }
+    ],
+    "intents": [
+      {
+        "intent": "action_33176_intent_10606",
+        "examples": [
+          {
+            "text": "i appreciate it"
+          },
+          {
+            "text": "I appreciate the help"
+          },
+          {
+            "text": "many thanks"
+          },
+          {
+            "text": "much appreciated"
+          },
+          {
+            "text": "thanks"
+          },
+          {
+            "text": "thank u"
+          },
+          {
+            "text": "Thank you"
+          },
+          {
+            "text": "thank you very much"
+          },
+          {
+            "text": "that's nice of you"
+          },
+          {
+            "text": "thx"
+          }
+        ]
+      },
+      {
+        "intent": "action_5575_intent_48112",
+        "examples": [
+          {
+            "text": "Can I know more about covid 19 symptoms"
+          },
+          {
+            "text": "Covid 19 symptoms"
+          },
+          {
+            "text": "I want to know about covid 19 symptoms"
+          },
+          {
+            "text": "What are the symptoms of covid?"
+          },
+          {
+            "text": "What are the symptoms that covid-19 can cause?"
+          }
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "entity": "action_5575_step_238_entity_38645",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "No",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Yes ",
+            "synonyms": []
+          }
+        ],
+        "fuzzy_match": true
+      },
+      {
+        "entity": "action_5575_step_439_entity_35411",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "14 days",
+            "synonyms": [
+              "2 weeks"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "3 days",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "7 days",
+            "synonyms": [
+              "Week"
+            ]
+          }
+        ],
+        "fuzzy_match": true
+      },
+      {
+        "entity": "action_5575_step_957_entity_27152",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Body aches",
+            "synonyms": [
+              "Muscle aches"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Cough",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Fatigue",
+            "synonyms": [
+              "Tiredness"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Fever",
+            "synonyms": [
+              "Chills"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Headache",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "New loss of taste or smell",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Runny nose",
+            "synonyms": [
+              "Congestion"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Shortness of breath or difficulty breathing",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Sore throat",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Vomiting",
+            "synonyms": [
+              "Nausea"
+            ]
+          }
+        ],
+        "fuzzy_match": true
+      }
+    ],
+    "metadata": {
+      "api_version": {
+        "major_version": "v2",
+        "minor_version": "2018-11-08"
+      }
+    },
+    "variables": [],
+    "counterexamples": [],
+    "system_settings": {
+      "off_topic": {
+        "enabled": true
+      },
+      "disambiguation": {
+        "prompt": "Did you mean:",
+        "enabled": true,
+        "randomize": true,
+        "max_suggestions": 5,
+        "suggestion_text_policy": "title",
+        "none_of_the_above_prompt": "None of the above"
+      },
+      "intent_classification": {
+        "training_backend_version": "v2"
+      },
+      "spelling_auto_correct": true
+    },
+    "learning_opt_out": false
+  },
+  "description": "Offering evidence-based guidance for Covid-19 infections.",
+  "workspace_id": "1111d14d-6dfa-4938-8974-b561cb7b7ed4",
+  "dialog_settings": {
+    "actions": true
+  }
+}
